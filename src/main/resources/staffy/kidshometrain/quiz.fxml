@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="498.0" prefWidth="859.0" style="-fx-background-radius: 35px;; -fx-border-radius: 35px;; -fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="staffy.kidshometrain.QuizController">
+
+</AnchorPane>

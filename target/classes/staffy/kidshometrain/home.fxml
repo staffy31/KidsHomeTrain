@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="313.0" prefWidth="516.0" style="-fx-background-radius: 35px;; -fx-border-radius: 35px;;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="staffy.kidshometrain.HomeController">
+   <children>
+      <Label layoutX="48.0" layoutY="62.0" text="Home Trainning Questions / Answers">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="startbtn" layoutX="130.0" layoutY="166.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="256.0" style="-fx-background-color: salmon; -fx-background-radius: 35px; -fx-border-radius: 32px;;" text="Start" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+   <opaqueInsets>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </opaqueInsets>
+</AnchorPane>
