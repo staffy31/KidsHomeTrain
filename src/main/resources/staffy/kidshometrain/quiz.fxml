@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-
-<AnchorPane prefHeight="498.0" prefWidth="859.0" style="-fx-background-radius: 35px;; -fx-border-radius: 35px;; -fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="staffy.kidshometrain.QuizController">
-
+<AnchorPane prefHeight="428.0" prefWidth="777.0" style="-fx-background-radius: 35px;; -fx-border-radius: 35px;; -fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="staffy.kidshometrain.QuizController">
+   <children>
+      <Label fx:id="question" layoutX="26.0" layoutY="36.0" prefHeight="51.0" prefWidth="693.0" text="1. Choose the right answer for the full word of USB ">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="ans1" layoutX="146.0" layoutY="151.0" mnemonicParsing="false" onAction="#ans1clicked" prefHeight="59.0" prefWidth="226.0" style="-fx-background-radius: 10px;; -fx-border-radius: 10px;; -fx-background-color: white;" text="Button">
+         <opaqueInsets>
+            <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+         </opaqueInsets>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ans2" layoutX="406.0" layoutY="151.0" mnemonicParsing="false" onAction="#ans2clicked" prefHeight="59.0" prefWidth="226.0" style="-fx-background-radius: 10px;; -fx-border-radius: 10px;; -fx-background-color: white;" text="Button">
+         <opaqueInsets>
+            <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+         </opaqueInsets>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ans3" layoutX="146.0" layoutY="241.0" mnemonicParsing="false" onAction="#ans3clicked" prefHeight="59.0" prefWidth="226.0" style="-fx-background-radius: 10px;; -fx-border-radius: 10px;; -fx-background-color: white;" text="Button">
+         <opaqueInsets>
+            <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+         </opaqueInsets>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ans4" layoutX="406.0" layoutY="241.0" mnemonicParsing="false" onAction="#ans4clicked" prefHeight="59.0" prefWidth="226.0" style="-fx-background-radius: 10px;; -fx-border-radius: 10px;; -fx-background-color: white;" text="Button">
+         <opaqueInsets>
+            <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+         </opaqueInsets>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>
