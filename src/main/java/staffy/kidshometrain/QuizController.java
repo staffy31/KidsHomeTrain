@@ -34,7 +34,7 @@ public class QuizController {
 
     }
     else if(counter == 1){
-      question.setText("1. Who was the president of Republic of Rwanda in 2019? ");
+      question.setText("2. Who was the president of Republic of Rwanda in 2019? ");
       ans1.setText("John Magufuri");
       ans2.setText("Barack Obama");
       ans3.setText("Paul Kagame");
@@ -46,6 +46,31 @@ public class QuizController {
   @FXML
   public void ans1clicked(ActionEvent actionEvent) {
 
+    checkAnswer(ans1.getText().toString());
+    if(checkAnswer(ans1.getText().toString())){
+      right = right + 1;
+    } else {
+      wrong = wrong +1;
+    }
+
+    if(counter == 2){
+
+    } else {
+      counter++;
+      loadQuestions();
+    }
+  }
+
+  boolean checkAnswer(String answer) {
+
+    if(counter == 0){
+      if(answer.equals("Universal Serial Bus")) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    return false;
   }
 
   @FXML
